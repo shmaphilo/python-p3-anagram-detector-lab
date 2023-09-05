@@ -11,4 +11,5 @@ class Anagram:
             if sorted_word == sorted(candidate.lower()) and self.word.lower() != candidate.lower():
                 result.append(candidate)
 
+
         return result
